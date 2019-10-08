@@ -20,7 +20,7 @@
 
 int main()
 {
-    std::cout << "hello world" << std::endl;
+    std::cout << "hello world 2" << std::endl;
 
     hw1 t;
     t.getIdFromFile();
