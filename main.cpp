@@ -18,7 +18,7 @@
 #include <sstream>      // for std::ostringstream
 
 
-/*int main()
+int main()
 {
     std::cout << "hello world 2" << std::endl;
 	//std::ostringstream os; // Holds output
@@ -35,5 +35,5 @@
 
 
     return 0;
-}*/
+}
 
