@@ -18,15 +18,22 @@
 #include <sstream>      // for std::ostringstream
 
 
-int main()
+/*int main()
 {
     std::cout << "hello world 2" << std::endl;
+	//std::ostringstream os; // Holds output
+	//std::istringstream is; // Holds input to getIdFromFile
+	//os.clear();
+	//os.str("");
+	//is.clear();
+	//is.str("sclaus\n");
 
     hw1 t;
-    t.getIdFromFile();
+    //t.getIdFromFile("users.txt", is, os);
+	t.getIdFromFile();
     //t.numberChase();
 
 
     return 0;
-}
+}*/
 

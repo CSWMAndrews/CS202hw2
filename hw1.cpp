@@ -9,6 +9,7 @@
 #include <ostream>
 #include <sstream>
 #include <fstream>
+#include <vector> 
 using std::cout;
 using std::endl;
 using std::string;
@@ -26,8 +27,20 @@ int hw1::getIdFromFile()
     while(ifile)
     {
         ifile >> sBoing;
-        cout << sBoing << " ";
+		_inputStorageNames.push_back(sBoing);
+		ifile >> sBoing;
+		std::stringstream temp(sBoing);
+		int x = 0;
+		temp >> x;
+		_inputStorageID.push_back(x);
+        //cout << sBoing << " " << endl;
     }
+
+	for (int n = 0; n < _inputStorageNames.size(); ++n) 
+	{
+		cout << _inputStorageNames.at(n) << " " << endl;
+		cout << _inputStorageID.at(n) << " " << endl;
+	}
 
     return _id;
 }

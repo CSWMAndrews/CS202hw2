@@ -9,6 +9,7 @@
 #include <string>       // for std::string
 #include <ostream>
 #include <fstream>
+#include <vector> 
 using std::cout;
 using std::string;
 
@@ -21,6 +22,8 @@ public:
 
 private:
 
+	std::vector<string> _inputStorageNames;
+	std::vector<int> _inputStorageID;
 
 };
 
